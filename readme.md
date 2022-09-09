@@ -19,5 +19,37 @@ Supported by NVIDIA JetPack and DeepStream SDKs, as well as CUDA®, cuDNN, and T
 
 ## Application
 
-### Autonomous Delivery Robot
+### Autonomous Delivery Robot [Youtube link](https://www.youtube.com/watch?v=pckZFC_hs50&feature=youtu.be)
 
+The on-demand delivery company Postmates that operates across the United States presented a new all-electric autonomous delivery robot equipped with the latest NVIDIA Jetson AGX Xavier module for autonomous machines at GTC Silicon Valley in San Jose.(source: NVIDIA) </br>
+
+Last-mile delivery: Cainiao Et Lab adopts Jetson AGX Xavier to accelerate the development of autonomous logistic Vehicles(ALVs). It’s equipped with several sensors such as lidars, cameras, GPS, and inertial measurement units (IMUs). (source: NVIDIA) </br>
+
+Meituan provides an innovative and holistic solution for autonomous delivery, which incorporates an online order platform, dispatch system, and road network logistics with big data optimization. (source: NVIDIA) </br>
+
+### Manufacturing [Youtube link](https://www.youtube.com/watch?v=WA-VQBUEvAw&feature=youtu.be)
+
+Malamute, our Edge AI partner, has integrated NVIDIA Embedded AGX Xavier, NVIDIA RIVA, and Snap Inc. Ghost’s AR Innovation Lab at their Atlas Communication System, an on-equipment industrial messaging system using natural language processing and spatial computing to improve workplace productivity and process traceability
+
+## More Application
+
+### Agriculture:
+* Smart farm in crop-dusting, monitoring,
+### Optical Inspection:
+* Automatic inspection robot
+### Manufacturing:
+* Safety precautions in the factory
+### Robotics:
+* Various robot scenarios 
+### Logistics:
+* Economical efficiency in transmitting
+### Retail:
+* Vending machine
+### Service:
+* Convenience for people 
+### Smart cities:
+* Supervisory control in building
+### Healthcare:
+* Medical support for medical Institutions 
+
+##
