@@ -33,23 +33,12 @@ Malamute, our Edge AI partner, has integrated NVIDIA Embedded AGX Xavier, NVIDIA
 
 ## More Application
 
-### Agriculture:
-* Smart farm in crop-dusting, monitoring,
-### Optical Inspection:
-* Automatic inspection robot
-### Manufacturing:
-* Safety precautions in the factory
-### Robotics:
-* Various robot scenarios 
-### Logistics:
-* Economical efficiency in transmitting
-### Retail:
-* Vending machine
-### Service:
-* Convenience for people 
-### Smart cities:
-* Supervisory control in building
-### Healthcare:
-* Medical support for medical Institutions 
-
-##
+* **Agriculture:** Smart farm in crop-dusting, monitoring,
+* **Optical Inspection:** Automatic inspection robot
+* **Manufacturing:** Safety precautions in the factory
+* **Robotics:** Various robot scenarios 
+* **Logistics:** Economical efficiency in transmitting
+* **Retail:** Vending machine
+* **Service:** Convenience for people 
+* **Smart cities:** Supervisory control in building
+* **Healthcare:** Medical support for medical Institutions 
