@@ -20,10 +20,10 @@ Connect Jetson Xavier AGX H01 with the Ubuntu host PC with a Type-C data transmi
 
 ### Getting Started
 
-+ **Step 1.** Download the the file [***AGX-H01-DRIVERS***](https://drive.google.com/drive/folders/1_9ZjCESUWXJb8Z6Vs3g_Z4ijUe7QZcLW?usp=sharing) from here . The required 32.7.1 drivers are shown below:
-+ L4T Driver Package (BSP)
-+ Sample Root Filesystem
-+ H01 Driver
++ **Step 1.** Download the the file [***AGX-H01-DRIVERS***](https://drive.google.com/drive/folders/1_9ZjCESUWXJb8Z6Vs3g_Z4ijUe7QZcLW?usp=sharing) from here. The required 32.7.1 drivers are shown below:
+- L4T Driver Package (BSP)
+- Sample Root Filesystem
+- H01 Driver
 
 
 
