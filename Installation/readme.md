@@ -18,5 +18,9 @@ Connect Jetson Xavier AGX H01 with the Ubuntu host PC with a Type-C data transmi
 
 ![Driver2](https://github.com/syedmohiuddinzia/JetsonXavierAGX-H01Kit/blob/main/Installation/driver2.png)
 
+### Getting Started
+
++ **Step 1.** Download the drivers on the host PC form NVIDIA. The required 32.7.1 drivers are shown below:
+
 
 
