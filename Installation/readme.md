@@ -12,3 +12,5 @@ Before installing the drivers, it is required to set the board into the Force Re
 
 There is a recovery button on the board, which is in the middle of three buttons. Hold the ***Reset Button*** for a second and then ***Recovery Button*** too, after a second release ***Reset Button*** and keep pressing the ***Recovery Button*** for other three seconds. This will enter to the Force Recovery Mode.
 
+[Driver1](https://github.com/syedmohiuddinzia/JetsonXavierAGX-H01Kit/blob/main/Installation/driver1.png)
+
