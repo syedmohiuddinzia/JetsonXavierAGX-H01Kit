@@ -8,6 +8,10 @@ Jetson AGX Xavier H01 is ideal for robots, drones and other autonomous machines.
 
 Supported by NVIDIA JetPack and DeepStream SDKs, as well as CUDA®, cuDNN, and TensorRT software libraries, the kit provides all the tools you need to get started right away. </br>
 
+![1](https://github.com/syedmohiuddinzia/JetsonXavierAGX-H01Kit/blob/main/agxh01.jpg)
+
+</br>
+
 ## Features
 
 * __Alternative to NVIDIA Jetson AGX Xavier Developer Kit,__ built with Jetson AGX Xavier Module and the same form factor carrier board, pre-installed with JetPack System, cooling fan, and aluminum case. </br>
@@ -16,6 +20,10 @@ Supported by NVIDIA JetPack and DeepStream SDKs, as well as CUDA®, cuDNN, and T
 * __Rich interfaces:__ PCIe X16, RJ45, 2Xusb3,1. DP,(16X) CSI-2 Lanes, NVMe, PCIe x1, 2xUSB 3.0, USB 2.0, UART and 40-pin GPIO. </br>
 * __Sufficient storage for complex AI workloads:__ 32GB 256-Bit LPDDR4x | 137GB/s, 32GB eMMC 5.1, support NVMe expand storage. </br> 
 * __Rapid product development,__ supported by NVIDIA JetPack and DeepStream SDKs, as well as CUDA®, cuDNN, and TensorRT software libraries. </br>
+
+![2](https://github.com/syedmohiuddinzia/JetsonXavierAGX-H01Kit/blob/main/comparsion.jpg)
+
+</br>
 
 ## Application
 
