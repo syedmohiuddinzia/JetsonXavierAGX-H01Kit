@@ -26,7 +26,9 @@ ___NOTE:___ Connect Host Machine and Jetson Xavier through same network. It can 
 + From the __Hardware Configuration__ panel, select the host machine and target hardware in our case is __JETSON XAVIER AGX__.
 + From the __Target Operating System__ panel, select the operating system and __JetPack version__. In our case the JetPack version is ```4.6.1```.
 + From the __Additional SDKs__ panel, select the DeepStream if you want to instal, else donot select.
-+ Click __Continue__ to proceed to the next step.
++ Click __Continue__ to proceed to the next step.</br>
+
+![2](https://github.com/syedmohiuddinzia/JetsonXavierAGX-H01Kit/blob/main/2-Configuration/2.png)
 
 ## Step 2: Review Components and Accept Licenses
 
