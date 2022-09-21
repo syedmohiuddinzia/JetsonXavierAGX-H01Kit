@@ -35,7 +35,13 @@ ___NOTE:___ Connect Host Machine and Jetson Xavier through same network. It can 
 + From Step 02 enable the checkbox to accept the terms and conditions of the license agreements.
 + Unselect the __Jetson OS__ from __Target Components__.
 + Select Continue to proceed to the next step.
+
+![3](https://github.com/syedmohiuddinzia/JetsonXavierAGX-H01Kit/blob/main/2-Configuration/3.png)
+
 + Before the installation begins, SDK Manager prompts you to enter your sudo password.
+
+![4](https://github.com/syedmohiuddinzia/JetsonXavierAGX-H01Kit/blob/main/2-Configuration/4.png)
+
 
 ## Step 3: Installation
 
