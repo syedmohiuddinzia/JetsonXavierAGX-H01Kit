@@ -64,6 +64,6 @@ ___NOTE:___ Connect Host Machine and Jetson Xavier through same network. It can 
 
 ## Step 4: Finish
 
-+ Click _Fnish ad Exit_ to end.
++ Click _Finish and Exit_ to end.
 
 ![8](https://github.com/syedmohiuddinzia/JetsonXavierAGX-H01Kit/blob/main/2-Configuration/8.png)
