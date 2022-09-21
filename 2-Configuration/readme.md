@@ -8,12 +8,13 @@ Now reboot the machine.</br>
 
 ## Installation of NVIDIA SDK Manager in Host Machine 
 
-* Download the latest NVIDIA SDK Manager from [https://developer.nvidia.com/nvidia-sdk-manager](https://developer.nvidia.com/nvidia-sdk-manager)
-![1](https://github.com/syedmohiuddinzia/JetsonXavierAGX-H01Kit/blob/main/2-Configuration/1.png).
+* Download the latest NVIDIA SDK Manager from [https://developer.nvidia.com/nvidia-sdk-manager](https://developer.nvidia.com/nvidia-sdk-manager).
+![1](https://github.com/syedmohiuddinzia/JetsonXavierAGX-H01Kit/blob/main/2-Configuration/1.png)
 * After downloading the file install he NVIDIA SDK Manager.
 * Login the NVIDIA Account, If you have no account then create it from NVIDIA Sign Up page.
 
-___NOTE:___ Connect Host Machine and Jetson Xavier through same network. It can be done as shown below and the in target maching find the ip address using command ```ifconfig``` which will be used later in NVIDIA SDK Manager to install additional softwares. Also connect the ___HOST___ and ___TARGET___ via USB C tpye cable as connected in flashing process.
+___NOTE:___ Connect Host Machine and Jetson Xavier through same network. It can be done as shown below and the in target maching find the ip address using command ```ifconfig``` which will be used later in NVIDIA SDK Manager to install additional softwares.
+![Configuration](https://github.com/syedmohiuddinzia/JetsonXavierAGX-H01Kit/blob/main/2-Configuration/configration.png)
 
 # Installation of Jetson Software with NVIDIA SDK Manager
 + If not opened then open NVIDIA SDK Manager.
