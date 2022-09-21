@@ -49,9 +49,21 @@ ___NOTE:___ Connect Host Machine and Jetson Xavier through same network. It can 
 + Write the IP address found using __NOTE__ above.
 + Write __username__ and __password__ of your __Target Machine__.
 + Click __INSTALL__ to install SDK components in Target machine.
-+ Before the installation begins, SDK Manager prompts you to enter your sudo password.
+
+![5](https://github.com/syedmohiuddinzia/JetsonXavierAGX-H01Kit/blob/main/2-Configuration/5.png)
+
++ Before the installation begins, SDK Manager prompts you to enter your sudo password and then the installetion will begin.
+
+![6](https://github.com/syedmohiuddinzia/JetsonXavierAGX-H01Kit/blob/main/2-Configuration/6.png)
+
 + Wait for the setup to verify and then click on skip.
+
+![7](https://github.com/syedmohiuddinzia/JetsonXavierAGX-H01Kit/blob/main/2-Configuration/7.png)
+
 + Now the setup will install all the SDK components to target machine.
 
 ## Step 4: Finish
+
 + Click _Fnish ad Exit_ to end.
+
+![8](https://github.com/syedmohiuddinzia/JetsonXavierAGX-H01Kit/blob/main/2-Configuration/8.png)
