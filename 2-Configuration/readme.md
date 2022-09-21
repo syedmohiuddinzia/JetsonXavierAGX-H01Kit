@@ -1,14 +1,15 @@
-In __Jetson Xavier__ to disable uattended Upgrades run the following command: ```sudo nano -w /etc/apt/apt.conf.d/20auto-upgrades``` and change the file to the following
+In __Jetson Xavier__ to disable uattended Upgrades run the following command: ```sudo nano -w /etc/apt/apt.conf.d/20auto-upgrades``` and change the file to the following,
 ```
 APT::Periodic::Update-Package-Lists "1";
 APT::Periodic::Unattended-Upgrade "0";
 ```
-Now reboot the machine.
+Now run the command ```sudo rm /var/lib/dpkg/lock```.</br>
+Now reboot the machine.</br>
 
 ## Installation of NVIDIA SDK Manager in Host Machine 
 
-* Download the latest NVIDIA SDK Manager from [](https://developer.nvidia.com/nvidia-sdk-manager
-)
+* Download the latest NVIDIA SDK Manager from [https://developer.nvidia.com/nvidia-sdk-manager](https://developer.nvidia.com/nvidia-sdk-manager)
+![1](https://github.com/syedmohiuddinzia/JetsonXavierAGX-H01Kit/blob/main/2-Configuration/1.png).
 * After downloading the file install he NVIDIA SDK Manager.
 * Login the NVIDIA Account, If you have no account then create it from NVIDIA Sign Up page.
 
@@ -45,8 +46,3 @@ ___NOTE:___ Connect Host Machine and Jetson Xavier through same network. It can 
 
 ## Step 4: Finish
 + Click _Fnish ad Exit_ to end.
-
-sudo rm /var/lib/dpkg/lock
-
-
-https://diyblindguy.com/tip-disable-unattended-upgrades-on-ubuntu-18-04-server/
