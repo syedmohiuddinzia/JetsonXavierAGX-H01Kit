@@ -135,4 +135,4 @@ cd installRealSenseSDK/
 ./buildLibrealsense.sh
 ```
 
-Open <p style="color:red;">I am red</p> and paste ```export PYTHONPATH=/usr/local/lib/python3.6/pyrealsense2``` at the bottom of the the file.
+Open <p><red> red color markdown text</red> and paste ```export PYTHONPATH=/usr/local/lib/python3.6/pyrealsense2``` at the bottom of the the file.
