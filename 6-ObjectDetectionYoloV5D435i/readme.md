@@ -135,7 +135,7 @@ cd installRealSenseSDK/
 ./buildLibrealsense.sh
 ```
 
-style="color: red;">text</span>Open Roses are \textcolor{red}{red}
+open hidden file ```.bashrc``` present in home directory and add
 
 ```
 export PYTHONPATH=/usr/local/lib/python3.6/pyrealsense2
