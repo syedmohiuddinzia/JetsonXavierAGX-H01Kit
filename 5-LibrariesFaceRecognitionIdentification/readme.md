@@ -21,3 +21,14 @@ wget http://dlib.net/files/dlib-19.17.tar.bz2
 tar jxvf dlib-19.17.tar.bz2
 ```
 
+```bash
+cd dlib-19.17
+```
+
+
+### 1. open ```dlib/cuda/cudnn_dlibapi.cpp```
+
+### 2. Search for ```forward_algo``` in the code
+### 3. comment this line
+
+
