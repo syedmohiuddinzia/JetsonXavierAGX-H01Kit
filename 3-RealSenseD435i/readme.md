@@ -1,5 +1,5 @@
-### NOTE: 
-This setup was performed on JetSon Xavier AGX H01 Dev. Kit.
+### _NOTE:_ 
+___This setup was performed on JetSon Xavier AGX H01 Dev. Kit.___
 
 # Intel RealSense D435i on NVIDIA Jetson AGX Xavier
 
