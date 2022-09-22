@@ -2,9 +2,20 @@
 
 This camera includes a built in Inertial Measurement Unit (IMU). Adding an IMU allows your application to refine its depth awareness in any situation where the camera moves. This opens the door for rudimentary SLAM and tracking applications allowing better point-cloud alignment. It also allows improved environmental awareness for robotics and drones. The use of an IMU makes registration and calibration easier for handheld scanning system use cases and is also important in fields such as virtual/augmented reality and drones. When using the D435i, our Intel RealSense SDK 2.0 provides IMU data that is time stamped to align with our high quality depth data.
 
-![d435i](htps://github.com/syedmohiuddinzia/JetsonXavierAGX-H01Kit/blob/main/3-RealSenseD435i/d435i.jpg)
+![d435i](https://github.com/syedmohiuddinzia/JetsonXavierAGX-H01Kit/blob/main/3-RealSenseD435i/d435i.jpg)
 
 ## Inertial Measurement Unit (IMU)
 The IMU is used for the detection of movements and rotations in 6 degrees of freedom (6DoF). An IMU combines a variety of sensors with gyroscopes to detect both rotation and movement in 3 axes, as well as pitch, yaw and roll. It is used in applications such as gaming and pointing devices as well as image stabilization.
 
 ![IMU](https://github.com/syedmohiuddinzia/JetsonXavierAGX-H01Kit/blob/main/3-RealSenseD435i/imu.png)
+
+## Background
+The software drivers to interface with the D435i have seen a few updates (such as better CUDA support) since that time. However, the biggest challenge in installing full librealsense 2 support on the Xavier is that additional kernel modules must be built and installed. Because some of the affected modules are built in to the kernel itself, the kernel image itself should be built.</br>
+The Jetson AGX Xavier is an embedded system. In this implementation, the Linux kernel is signed and resides in a partition on disk. This is for security reasons, as you are aware if you have been following the computer news for the last few months. This complicates building the kernel on the Jetson Xavier itself, as the signing application only runs on a PC. The JetPack installer contains the signing application.</br>
+The NVIDIA approved method is to cross compile the kernel and modules on the PC, and then flash them on the Jetson. In this article, we do something exactly unlike that.</br>
+
+# Librealsense 2 Installation
+This installation is for intermediate and advanced developers. It is strongly suggested that you do this on a fresh install, immediately after flashing the Jetson.</br>
+Clone and open repository named [buildLibrealsense2Xavier](https://github.com/jetsonhacks/buildLibrealsense2Xavier). To download the repository:
+
+
