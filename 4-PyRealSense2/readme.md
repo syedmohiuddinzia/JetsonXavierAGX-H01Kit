@@ -16,11 +16,12 @@ unzip v2.48.0.zip
 cd librealsense-2.48.0
 mkdir build && cd build
 ```
-Setting some PATH environment variables to aware the build script where CUDA is located
+Setting some PATH environment variables to aware the build script where CUDA is located. Copy the lines below and paste at the bottom of ```.bashrc``` in user folder.
 ```bash
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64
 export PATH=$PATH:$CUDA_HOME/bin
 ```
+
 Trying a simple build as a test if build is likely to succeed
 ```bash
 cmake ../ -DFORCE_RSUSB_BACKEND=ON -DBUILD_PYTHON_BINDINGS:bool=true -DPYTHON_EXECUTABLE=/usr/bin/python3
