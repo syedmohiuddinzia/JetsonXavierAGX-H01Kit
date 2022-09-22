@@ -51,5 +51,67 @@ pip3 install --no-deps matplotlib==3.2.2
 ```
 
 ```bash
-pip3 install --no-deps matplotlib==3.2.2
+sudo apt install gfortan
+```
+
+```bash
+sudo apt install libopenblas-dev
+```
+
+```bash
+sudo apt install libpack-dev
+```
+
+```bash
+pip3 install scipy==1.4.1
+```
+
+```bash
+sudo apt install libjpeg-dev
+```
+
+```bash
+pip3 install pillow==8.3.2
+```
+
+```bash
+wget https://nvidia.box.com/shared/static/p57jwntv436lfrd78inwl7iml6p13fzh.whl -O https://nvidia.box.com/shared/static/h1z9sw4bb1ybi0rm3tu8qdj8hs05ljbm.whl
+```
+
+```bash
+pip3 install typing-extensions==3.10.0.2
+```
+
+```bash
+pip3 install torch-1.9.0-cp36-cp36m-linux_aarch64.whl
+```
+
+```bash
+sudo apt-get install python3-pip libopenblas-base libopenmpi-dev libomp-dev
+```
+
+```bash
+git clone --branch v0.9.0 https://github.com/pytorch/vision torchvision
+```
+
+```bash
+cd torchvision
+```
+
+```bash
+export BUILD_VERSION=0.9.0
+```
+
+```bash
+python3 setup.py install --user
+
+```
+
+```bash
+cd ../
+
+```
+
+```bash
+pip3 install --no-deps seaborn==0.11.0
 ```
