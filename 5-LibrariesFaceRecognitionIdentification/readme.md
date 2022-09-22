@@ -26,9 +26,10 @@ cd dlib-19.17
 ```
 
 
-### 1. open ```dlib/cuda/cudnn_dlibapi.cpp```
-
-### 2. Search for ```forward_algo``` in the code
-### 3. comment this line
+##### 1. open ```dlib/cuda/cudnn_dlibapi.cpp```
+![dlib1](https://github.com/syedmohiuddinzia/JetsonXavierAGX-H01Kit/blob/main/5-LibrariesFaceRecognitionIdentification/dlib1.png)
+##### 2. Search for ```forward_algo``` in the code
+##### 3. After finding comment this line
+![dlib2](https://github.com/syedmohiuddinzia/JetsonXavierAGX-H01Kit/blob/main/5-LibrariesFaceRecognitionIdentification/dlib2.png)
 
 
