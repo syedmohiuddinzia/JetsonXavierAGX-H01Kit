@@ -2,7 +2,7 @@
 The python wrapper for Intel RealSense SDK 2.0 provides the C++ to Python binding required to access the SDK. This library is used for accessing Intel RealSenseTM cameras
 The first issue with using the camera with the NVIDIA board arises with the lack of pre-built binary distributions of the RealSense SDK. Because the Jetson board is based on an ARM chipset (AARCH64) the SDK provided by Intel has to be built from source on the device itself.</br>
 
-## Dependenciy
+## Dependency
 Run the following command to install the dependency
 ```bash
 sudo apt install libssl-dev
@@ -43,7 +43,9 @@ Even the module can be imported but there is still problem accessing the camera.
 sudo cp config/99-realsense-libusb.rules /etc/udev/rules.d/
 sudo udevadm control --reload-rules && udevadm trigger
 ```
-After rebooting system the rules will be applied and now you can find your realsense device with the following command.
+After rebooting system the rules will be applied and now you can find your realsense device with the following command as shown in the figure below.
 ```
 rs-enumerate-devices
 ```
+![1](https://github.com/syedmohiuddinzia/JetsonXavierAGX-H01Kit/blob/main/4-PyRealSense2/1.png)
+
