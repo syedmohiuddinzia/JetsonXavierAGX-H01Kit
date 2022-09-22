@@ -115,3 +115,9 @@ cd ../
 ```bash
 pip3 install --no-deps seaborn==0.11.0
 ```
+
+
+```bash
+cd ../
+
+```
