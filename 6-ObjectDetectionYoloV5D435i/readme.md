@@ -3,10 +3,6 @@ YOLOv5 rocket is a family of object detection architectures and models pretraine
 YoloV5 default model is trained for 79 different classes and we will use it for object detection with jetson Xavier AGX H01 Kit using RealSense D435i.</br>
 
 ```bash
-git clone https://github.com/ultralytics/yolov5
-```
-
-```bash
 pip3 install -U PyYAML==5.3.1
 ```
 
@@ -116,8 +112,26 @@ cd ../
 pip3 install --no-deps seaborn==0.11.0
 ```
 
+```bash
+pip3 install --no-deps seaborn==0.11.0
+```
+
+Download ___YoloV5 for RealSense___ from [YoloV5RealSense](https://drive.google.com/drive/folders/16Bqbsb9a1tRlVe3Zy7vM7_OBRQy4t1pg?usp=sharing)
+
 
 ```bash
-cd ../
-
+python3 detect.py --source data/images --weights yolov5s.pt --img 648
 ```
+
+```bash
+git clone https://github.com/jetsonhacks/installRealSenseSDK
+```
+
+```bash
+cd installRealSenseSDK/
+```
+
+```bash
+./buildLibrealsense.sh
+```
+
