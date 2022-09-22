@@ -135,8 +135,4 @@ cd installRealSenseSDK/
 ./buildLibrealsense.sh
 ```
 
-Open
-```diff
-! .bashrc
-```
-and paste ```export PYTHONPATH=/usr/local/lib/python3.6/pyrealsense2``` at the bottom of the the file.
+Open <p style='color:red'>.bashrc</p> and paste ```export PYTHONPATH=/usr/local/lib/python3.6/pyrealsense2``` at the bottom of the the file.
