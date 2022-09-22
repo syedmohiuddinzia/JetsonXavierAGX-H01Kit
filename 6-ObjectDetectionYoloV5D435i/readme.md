@@ -134,7 +134,7 @@ cd installRealSenseSDK/
 ```bash
 ./buildLibrealsense.sh
 ```
-<p style="color:red"> .bashrc:</p>
+<p style="color:red"> DIFFERENCES:</p>
 open hidden file ```.bashrc``` present in home directory and add
 
 ```
