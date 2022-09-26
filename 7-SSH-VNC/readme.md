@@ -25,6 +25,8 @@ ssh <user>@192.168.55.1
 ```
 + Now just enter the username and then password
 
+![01](https://github.com/syedmohiuddinzia/JetsonXavierAGX-H01Kit/blob/main/7-SSH-VNC/01.png)
+
 # VNC
 
 VNC (Virtual Network Computing) enables you to control your Jetson developer kit from another computer on the same network, by viewing and interacting with the desktop of the developer kit from the other computer. </br>
@@ -55,6 +57,10 @@ gsettings set org.gnome.Vino vnc-password $(echo -n 'thepassword'|base64)
 ```
 sudo reboot
 ```
+
+
+![02](https://github.com/syedmohiuddinzia/JetsonXavierAGX-H01Kit/blob/main/7-SSH-VNC/02.png)
+
 ___NOTE:___ _The VNC server is only available after you have logged in to Jetson locally. If you wish VNC to be available automatically then follow the steps below_
 
 + Open __System Settings__ and then __System Accounts__
