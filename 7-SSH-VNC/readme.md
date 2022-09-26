@@ -54,14 +54,18 @@ gsettings set org.gnome.Vino vnc-password $(echo -n 'thepassword'|base64)
 ```
 sudo reboot
 ```
-+ The VNC server is only available after you have logged in to Jetson locally. If you wish VNC to be available automatically then follow the steps below
+___NOTE:___ _The VNC server is only available after you have logged in to Jetson locally. If you wish VNC to be available automatically then follow the steps below_
 
++ Open __System Settings__ and then __System Accounts__
 ![1](https://github.com/syedmohiuddinzia/JetsonXavierAGX-H01Kit/blob/main/7-SSH-VNC/1.png)
 
++ Click the __Unlock__ Button, at the top right corner.
 ![2](https://github.com/syedmohiuddinzia/JetsonXavierAGX-H01Kit/blob/main/7-SSH-VNC/2.png)
 
++ Enter the password and then click __Authenticate__ Button.
 ![3](https://github.com/syedmohiuddinzia/JetsonXavierAGX-H01Kit/blob/main/7-SSH-VNC/3.png)
 
++ Now toggle the __Automatic Login__ Button to ON and then click __Lock__ Button.
 ![4](https://github.com/syedmohiuddinzia/JetsonXavierAGX-H01Kit/blob/main/7-SSH-VNC/4.png)
 
 
