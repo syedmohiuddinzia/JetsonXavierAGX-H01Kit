@@ -6,6 +6,7 @@ The Secure Shell Protocol is a cryptographic network protocol for operating netw
 ### If working without LAN using USB data cable
 
 + Connect USB type C cable from __HOST__ to __TARGET__
++ Open the __Terminal__
 + Enter the command in __HOST__
 ```
 ssh-keygen -R 192.168.55.1
