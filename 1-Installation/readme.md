@@ -36,6 +36,6 @@ sudo  ./apply_binaries.sh
 + **Step 5.** Copy **H01_Drivers** directory to the new directory **Linux_for_Tegra**
 + **Step 6.** Open the directory, **Linux_for_Tegra** and run the command below:
 ```
-sudo flash.sh jetson-xavier mmcblk0p1
+sudo bash flash.sh jetson-xavier mmcblk0p1
 ```
 + **Step 7.** The flash will be running and complete after some interval of time.
